@@ -1,8 +1,7 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 import { useStateContext } from '../contexts/ContextProvider';
-
-import { motion } from 'framer-motion';
 
 const Button = ({ icon, bgColor, color, bgHoverColor, size, text, borderRadius, width }) => {
   const { setIsClicked, initialState } = useStateContext();

@@ -54,7 +54,7 @@ const Navbar = () => {
     <motion.div
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      style={{ zIndex: "1000" }}
+      style={{ zIndex: '1000' }}
       transition={{ duration: 0.5 }}
       className="flex justify-between p-2 md:ml-6 md:mr-6 relative glass-effect rounded-2xl mt-4 mx-4"
     >

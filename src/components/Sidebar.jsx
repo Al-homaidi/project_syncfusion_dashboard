@@ -8,8 +8,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { links } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 
-
-
 const Sidebar = () => {
   const { currentColor, activeMenu, setActiveMenu, screenSize } = useStateContext();
 
@@ -29,7 +27,7 @@ const Sidebar = () => {
           initial={{ x: -200, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           exit={{ x: -200, opacity: 0 }}
-          transition={{ duration: 0.5, ease: "easeOut" }}
+          transition={{ duration: 0.5, ease: 'easeOut' }}
           className="ml-3 h-screen md:overflow-hidden overflow-auto md:hover:overflow-auto pb-10 glass-effect border-r-0 rounded-r-2xl mt-2"
           style={{ zIndex: 1000 }}
         >
